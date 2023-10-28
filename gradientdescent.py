@@ -42,7 +42,7 @@ def update_weights(
     return new_b, new_w
 
 
-# Train Fonksiyonu
+# Train Fonksiyonu 
 def train(Y, initial_b, initial_w, X, learning_rate, num_iters):
     print(
         "Starting gradient descent at b = {0}, w = {1}, mse = {2}".format(
